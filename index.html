@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROVI HOSTING - Layanan Hosting Berkualitas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5fbff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #87CEFA, #B0E0E6);
+            color: #2c3e50;
+            padding: 25px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid #d4f1f9;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+            color: #2c3e50;
+        }
+        .tagline {
+            font-style: italic;
+            margin-top: 5px;
+            color: #2c3e50;
+        }
+        .product-section {
+            background-color: white;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid #d4f1f9;
+        }
+        h2 {
+            color: #4682B4;
+            border-bottom: 2px solid #e1f5fe;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .price-table th {
+            background-color: #B0E0E6;
+            color: #2c3e50;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .price-table td {
+            padding: 10px;
+            border-bottom: 1px solid #e1f5fe;
+        }
+        .price-table tr:nth-child(even) {
+            background-color: #f0f9ff;
+        }
+        .highlight {
+            background-color: #e1f5fe;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 1px solid #d4f1f9;
+        }
+        .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .benefit-item {
+            background-color: #e1f5fe;
+            padding: 12px 15px;
+            border-radius: 6px;
+            flex: 1 1 200px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #B0E0E6;
+        }
+        .benefit-item::before {
+            content: "✓";
+            color: #4682B4;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        .cta {
+            background: linear-gradient(135deg, #87CEFA, #B0E0E6);
+            color: #2c3e50;
+            text-align: center;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border: 1px solid #d4f1f9;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: white;
+            color: #4682B4;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+            border: 1px solid #B0E0E6;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            background-color: #e1f5fe;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        .other-services {
+            margin-top: 30px;
+        }
+        .service-item {
+            background-color: #f0f9ff;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            border-left: 4px solid #87CEFA;
+            border: 1px solid #d4f1f9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            padding: 15px;
+        }
+        .ram-icon {
+            color: #4682B4;
+            margin-right: 5px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            .price-table {
+                font-size: 0.9em;
+            }
+            .benefit-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ROVI HOSTING</h1>
+            <div class="tagline">Layanan Hosting Berkualitas dengan Harga Terjangkau</div>
+        </header>
+
+        <div class="product-section">
+            <h2>💾 LIST HARGA PANEL PUBLIC</h2>
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Pilihan RAM</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><span class="ram-icon">💾</span> 1GB</td><td>Rp 1.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 2GB</td><td>Rp 2.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 3GB</td><td>Rp 3.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 4GB</td><td>Rp 4.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 5GB</td><td>Rp 5.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 6GB</td><td>Rp 6.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 7GB</td><td>Rp 7.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 8GB</td><td>Rp 8.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 9GB</td><td>Rp 9.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 10GB</td><td>Rp 10.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> UNLIMITED</td><td>Rp 11.000</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="product-section">
+            <h2>💾 LIST HARGA PANEL PRIVATE</h2>
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Pilihan RAM</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><span class="ram-icon">💾</span> 1GB</td><td>Rp 2.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 2GB</td><td>Rp 3.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 3GB</td><td>Rp 4.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 4GB</td><td>Rp 5.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 5GB</td><td>Rp 6.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 6GB</td><td>Rp 7.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 7GB</td><td>Rp 8.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 8GB</td><td>Rp 9.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 9GB</td><td>Rp 10.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> 10GB</td><td>Rp 11.000</td></tr>
+                    <tr><td><span class="ram-icon">💾</span> UNLIMITED</td><td>Rp 13.000</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="product-section other-services">
+            <h2>LAYANAN LAINNYA</h2>
+            <div class="service-item"><strong>INSTALL PANEL PTERODACTYL</strong> - Rp 10.000</div>
+            <div class="service-item"><strong>DOMAIN CLOUDFLARE BIZ.ID, MY.ID 1 TAHUN</strong><br><small>(AKUN CF DARI BUYYER)</small></div>
+            <div class="service-item"><strong>MURBUG VIA TELEGRAM</strong> - Rp 15.000 <em>(DIJAMIN GACOR)</em></div>
+            <div class="service-item"><strong>JASA BUG</strong> - Rp 2.000 (1x)</div>
+            <div class="service-item"><strong>FILE BADAK</strong></div>
+        </div>
+
+        <div class="highlight">
+            <h2>⚡ KEUNTUNGAN BELI DI ROVI HOSTING</h2>
+            <div class="benefits">
+                <div class="benefit-item">Server Responsif & Anti Lag</div>
+                <div class="benefit-item">Uptime 99%</div>
+                <div class="benefit-item">Support 24 Jam</div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>📌 ORDER SEKARANG</h2>
+            <p>Dapatkan layanan hosting terbaik dengan harga terjangkau</p>
+            <a href="https://wa.me/62895337157018?text=buy" class="cta-button">📲 Hubungi Kami via WhatsApp</a>
+        </div>
+
+        <footer>
+            &copy; 2023 ROVI HOSTING - All Rights Reserved
+        </footer>
+    </div>
+</body>
+</html>
